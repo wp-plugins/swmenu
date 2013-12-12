@@ -1,0 +1,54 @@
+.swmenu {
+ -pie-background:linear-gradient(left, rgb(18, 18, 20) 12%, rgb(213, 228, 233) 97%) ;
+ behavior: url(wp-content/plugins/swmenu/css/PIE.php);
+}
+.swmenu a {
+ -pie-background:linear-gradient(left, rgb(128, 127, 122) 23%, rgb(32, 32, 19) 59%) ;
+ behavior: url(wp-content/plugins/swmenu/css/PIE.php);
+}
+.swmenu li a:hover{
+ behavior: url(wp-content/plugins/swmenu/css/PIE.php);
+}
+*html .swmenu li a:hover {
+ behavior: url(wp-content/plugins/swmenu/css/PIE.php);
+}
+.swmenu li.sw_active a {
+ behavior: url(wp-content/plugins/swmenu/css/PIE.php);
+}
+.swmenu ul{
+ -pie-background:none ;
+ behavior: url(wp-content/plugins/swmenu/css/PIE.php);
+}
+.swmenu li.sw_active ul a ,
+.swmenu  ul li  a {
+ -pie-background:none ;
+ behavior: url(wp-content/plugins/swmenu/css/PIE.php);
+}
+.swmenu li.sw_active ul li:first-child > a ,
+.swmenu ul li:first-child > a{
+ behavior: url(wp-content/plugins/swmenu/css/PIE.php);
+}
+.swmenu li.sw_active ul li:last-child:first-child > a ,
+.swmenu ul li:last-child:first-child > a{
+ behavior: url(wp-content/plugins/swmenu/css/PIE.php);
+}
+.swmenu li.sw_active ul li:last-child > a ,
+.swmenu ul li:last-child > a{
+ behavior: url(wp-content/plugins/swmenu/css/PIE.php);
+}
+.swmenu li.sw_active ul li a:hover ,
+.swmenu ul a:hover {
+ -pie-background:none ;
+ behavior: url(wp-content/plugins/swmenu/css/PIE.php);
+}
+.swmenu li.sw_active ul li:hover > a ,
+.swmenu ul li:hover > a {
+ -pie-background:none ;
+ behavior: url(wp-content/plugins/swmenu/css/PIE.php);
+}
+.swmenu ul li > a.sw_parent.sw_opened  ,
+.swmenu li.sw_active ul li > a.sw_opened ,
+.swmenu li.sw_active ul li.sw_active > a {
+ -pie-background:none ;
+ behavior: url(wp-content/plugins/swmenu/css/PIE.php);
+}
