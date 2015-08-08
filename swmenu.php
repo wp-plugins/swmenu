@@ -4,7 +4,7 @@
  * Plugin Name: swmenu
  * Description: swMenu widget to display a menu created by swmenu.com
  * Author: Sean White
- * Version: 1.1
+ * Version: 1.2
  * Author URI: http://www.swmenu.com
  */
 defined('ABSPATH') or die("Cannot access pages directly.");

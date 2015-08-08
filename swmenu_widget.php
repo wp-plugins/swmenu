@@ -17,9 +17,7 @@ class sw_swmenu_widget extends WP_Widget {
             'classname' => $css_class,
             'description' => __($desc, 'sw-menu'),
         );
-        parent::WP_Widget('nav_menu', __('Custom Menu'), $widget_ops);
-
-        $this->WP_Widget($id_base, __($name, 'swmenu'), $widget_ops);
+       parent::__construct( $id_base, __('swMenu'), $widget_ops );
 
 
         //	add_action( 'wp_head', array(&$this, 'styles'), 10, 1 );	
